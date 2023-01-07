@@ -1,0 +1,134 @@
+/*Overall Styling for the body
+easy readible text and size */
+body {
+    font-family: 'Humanst521 Lt BT';
+    font-size: 18px;
+}
+/*Navigation Bar Styling*/
+
+
+  
+p:hover{
+    color:red;
+}
+
+div p{
+    color: ;
+}
+
+.pops {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.spane {
+    border: 2px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+    border-color: transparent;
+    background-color: white;
+    border-style: solid;
+    height: 410px;
+    width: 80%;
+    position: relative;
+    font-size: 20px;
+    border-width: 1px;
+    top: 10px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+        .TopNav{
+            font-family: BeteNoirA;
+            padding: 15px;
+            height: 50px;
+            background-color: black;
+            display: flex;
+            font-size: 30px;
+            text-decoration: none;
+            color: #fff;
+            }
+            #logo{
+                position: relative;
+                top: -50px;
+                left: 500px;
+                width: 190px;
+                height: 130px;
+                
+            }
+            #wlogo1{
+                position: relative;
+                left: 535px;
+                top: 20px;
+            }
+            #wlogo2{
+                position: relative;
+                left: 490px;
+                top: 20px;
+            }
+           
+                
+                
+                a{
+                text-decoration: none;
+                color: #fff;
+                }
+                .splash{
+                   
+                    width: 100%;
+                    height: 600px;
+                }
+                #insta{
+                    
+                    left: 15px;
+                }
+                #twit{
+                    left:75px;
+                }
+                #face{
+                    left: 135px;
+                }
+                .social{
+                    position: absolute;
+                    top: 20px;
+                    width: 50px;
+                    height: 50px;
+                    transition: width 1s;
+                    transition: height 1s;
+                }
+                .social:hover{
+                    transform: scale(1.5);
+                }
+
+            .icon{
+                position: relative; 
+                top: 10px;
+                left: 3px;
+                right: 10px;
+                width: 300px;
+                max-width: 96%;
+            }
+            footer{
+                height: 210px;
+                background-color: black;
+                text-align: center;
+                
+
+            }
+            .flinks{
+               
+                display: inline-block;
+                color: gray;
+            }
+            .fnavs{
+                width:350px;
+                text-align:center;
+                
+                color: gray;
+            }
+            .fnavs a{
+                display:block;
+                float:left;
+                width:20%;
+
+            }
